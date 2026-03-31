@@ -14,9 +14,9 @@ function StartGame(){
   btn.textContent = '게임 시작';
   container.appendChild(btn);
 
-  btn.addEventListender('click',function(){
+  btn.addEventListener('click',function(){
     btn.remove();
 
     //함수 호출하면 됨
-  }
+  });
 }
