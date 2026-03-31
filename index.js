@@ -7,3 +7,16 @@
 //카드를 뽑을때마다 점수를 보여줌
 //카드를 뽑을때마다 2초가 걸림
 //마지막 라운드일 경우 끝나고 총점수 보여주고 우승자를 알려줌
+function StartGame(){
+  const container = document.getElementById('container');
+
+  const btn = document.createElement('button');
+  btn.textContent = '게임 시작';
+  container.appendChild(btn);
+
+  btn.addEventListender('click',function(){
+    btn.remove();
+
+    //함수 호출하면 됨
+  }
+}
